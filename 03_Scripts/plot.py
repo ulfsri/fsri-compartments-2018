@@ -1,10 +1,5 @@
 # plot.py
 
-# TODO: 
-#   -- create new, simple plotting script based on reduced data files
-#   -- try using chart styles here, change to style used in report if preferred
-#   -- push reduced data and simple plotting script to repo
-
 # --------------- #
 # Import Packages #
 # --------------- #
