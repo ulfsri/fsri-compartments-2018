@@ -145,7 +145,8 @@ for f in os.listdir(data_dir):
                 y_min = 0
 
             elif data_type == 'Velocity':
-                # Set y-axis labels, secondary scale
+                # Apply moving average & set y-axis labels, secondary scale
+                data_df[channel] = data_df[channel].rolling(window=10, center=True).mean()
                 ax1.set_ylabel('Velocity (m/s)', fontsize=label_size)
                 secondary_axis_label = 'Velocity (mph)'
                 secondary_axis_scale = 2.23694
@@ -161,7 +162,8 @@ for f in os.listdir(data_dir):
                 ax1.set_ylabel('O$_2$ Concentration (%)', fontsize=label_size)
 
             elif data_type.endswith('Heat Flux'):
-                # Set y-axis label
+                # Apply moving average & set y-axis label
+                data_df[channel] = data_df[channel].rolling(window=10, center=True).mean()
                 ax1.set_ylabel('Heat Flux (kW/m$^2$)', fontsize=label_size)
 
             # Determine x max bound for current data & update max of chart if necessary

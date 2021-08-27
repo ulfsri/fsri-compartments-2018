@@ -10,7 +10,7 @@ The data directory includes one data file and one events file for each experimen
 The info directory contains a plaintext __.csv__ channel list that is referenced by the plotting script to properly map data channels to their respective sensor groups, add labels to the chart legends, and assign the file names of the charts that are generated. Additional information about the instrumentation including a dimensioned floor plan of sensor locations can be found here: [02_Info/README.md](02_Info/README.md)
 
 ## 03_Scripts
-A single Python script, __plot.py__, is included in the scripts directory. When executed, the script generates __.pdf__ graphs that contain data plots from each sensor group for every experiment. In conjunction with Matplotlib, Seaborn is used to style the graph. If seaborn is not already installed, it can be added by the following:
+A single Python script, __plot.py__, is included in the scripts directory. When executed, the script generates __.pdf__ graphs that contain data plots from each sensor group for every experiment. In conjunction with Matplotlib, Seaborn is used to style the graph. If Seaborn is not already installed, it can be added by the following:
 ```
 pip install seaborn
 ```
@@ -20,7 +20,6 @@ conda install seaborn
 ```
 
 ## 04_Charts
-The chart directory is produced upon execution of __plot.py__. The charts produced by the Python script are saved in subdirectories that correspond to each compartment fire experiment. Because the graphs can be produced from files included in this repository, the graphs themselves are not files under version control.
+The charts directory is produced upon execution of __plot.py__. The charts produced by the Python script are saved in subdirectories that correspond to each compartment fire experiment. Because the graphs can be produced from files included in this repository, the graphs themselves are not files under version control.
 
-###
-For more information about the project, [Contact Us](https://fsri.org/contact-fire-safety-research-institute).
+For more information about this project, [Contact Us](https://fsri.org/contact-fire-safety-research-institute).
