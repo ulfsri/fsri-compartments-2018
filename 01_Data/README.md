@@ -9,11 +9,11 @@ The name of each experiment contains four parts separated by underscores, **[1]\
 ### [1] Fuel
 Two natural gas burners were utilized as fuel sources for a number of the experiments. Each burner had a square opening on its top face. The side length of the smaller burner's orifice was 0.3 m, while that of the larger burner was 0.6 m. The flow of gas to the burner was set to produce fires with specific heat release rates (HRRs). Images of the two burners are presented below.
 
-![0_3Burner](_images_for_README/small_burner.jpg) ![0_6Burner](_images_for_README/burner.jpg)
+![0_3Burner](_images_for_README/small_burner.JPG) ![0_6Burner](_images_for_README/burner.JPG)
 
 In addition to the gas burners, an upholstered chair and upholstered sofa were used as fuel sources during the experimental series. These furnishings are referred to as the "Red Accent Chair" and "Overstuffed Sofa". Each furniture item was comprised of a polyester (PE) outer covering, a wooden frame, and cushions composed of polyurethane foam covered by PE batting on the top and bottom. Images of the two upholstered furniture items are presented below.
 
-![Red_Accent_Chair](_images_for_README/red_accent_chair.jpg) ![Overstuffed_Sofa](_images_for_README/overstuffed_sofa.jpg)
+![Red_Accent_Chair](_images_for_README/red_accent_chair.JPG) ![Overstuffed_Sofa](_images_for_README/overstuffed_sofa.JPG)
 
 The following table lists the notation used to refer to the different fuels in the experiment names:
 
