@@ -27,4 +27,6 @@ conda install seaborn
 
 The charts directory is produced upon execution of __plot.py__. The charts produced by the Python script are saved in subdirectories that correspond to each compartment fire experiment. Because the graphs can be produced from files included in this repository, the graphs themselves are not files that are under version control.
 
-For more information about this project, [Contact Us](https://fsri.org/contact-fire-safety-research-institute).
+## Additional Information
+
+For more information about this project and other FSRI fire investigation projects, visit the [FSRI Fire Investigation](https://fireinvestigation.fsri.org/) webpage. Additionally, [Contact Us](https://fsri.org/contact-fire-safety-research-institute) to request any additional information about this project.
