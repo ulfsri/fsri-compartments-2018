@@ -42,4 +42,4 @@ To evaluate the repeatability of fire conditions produced by the different fuel 
 
 ## Additional Information
 
-Dimensioned floor plans of the compartment and instrumentation locations along with information about the measurement groups can be found here: [02_Info/README.md](02_Info/README.md)
+Dimensioned floor plans of the compartment and instrumentation locations along with information about the measurement groups can be found here: [02_Info/README.md](../02_Info/README.md)

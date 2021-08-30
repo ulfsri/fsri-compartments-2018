@@ -152,10 +152,9 @@ for f in os.listdir(data_dir):
                 secondary_axis_scale = 2.23694
 
             elif data_type == 'Pressure':
-                # Set y-axis label, secondary scale
+                # Apply moving average & set y-axis labels, secondary scale
+                data_df[channel] = data_df[channel].rolling(window=10, center=True).mean()
                 ax1.set_ylabel('Pressure (Pa)', fontsize=label_size)
-                # secondary_axis_label = 'Pressure (psi)'
-                # secondary_axis_scale = 0.000145038
 
             elif data_type == 'Oxygen':
                 # Set y-axis label
