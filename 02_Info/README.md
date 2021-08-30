@@ -16,4 +16,12 @@ With respect to the labeling of sensor groups, the compartment was divided into 
 
 <img src="_images_for_README/quadrants.jpg" alt="quadrants" width="250"/>
 
-Additionally, during experiments where the fuel was against a wall (i.e., at the corner, back, or side location), heat flux gauges and bi-directional probes (BDPs) were positioned to measure the total heat flux to the adjacent wall along with the gas velocity and temperature within the fire plume. 
+A vertical array of type K, bare-bead thermocouples was installed in the center of each quadrant. Each array contained a total of eight thermocouples that were positioned 25 mm below the ceiling and at 0.3 m increments below the ceiling.
+
+To measure oxygen concentration, gas sampling probes were positioned 0.6 m and 1.8 m below the ceiling alongside the thermocouple array in each quadrant.
+
+Total and radiative heat flux to the right side wall were measured by gauges centered along the wall and positioned 0.65 m and 1.3 m below the ceiling. Additionally, a pair of gauges at identical heights were used to measure the total heat flux from the fire plume during experiments in which the fuel load was against a wall (i.e., at the corner, back, or side location). These two gauges were flush with the interior side of the wall adjacent to the fuel source and were aligned with the centerline of the fire plume.
+
+Three pressure taps were positioned 0.3 m, 1.2 m, and 2.1 m below the ceiling in the back right corner of the compartment.
+
+Seven bi-directional probes (BDPs) paired with thermocouples were utilized to measure gas velocity through the compartment doorway during open door experiments. The probes were horizontally-centered in the doorway and spaced 25 cm apart between the top of the doorway and the floor. Additionally, during experiments in which the fuel load was against a wall (i.e., at the corner, back, or side location), two BDPs paired with thermocouples located 0.65 m and 1.3 m below the ceiling were positioned over each fuel load to measure the gas velocity and temperature within the fire plume.
