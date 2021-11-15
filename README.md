@@ -1,4 +1,7 @@
 # fsri-compartments-2018
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5703475.svg)](https://zenodo.org/record/5703475#.YZK1J73MK50)
+
+
 
 This repository contains data from compartment fire experiments that were conducted as part of a project that examined the use of fire dynamics analysis techniques with furniture-fueled fires. Information about the experiments and a Python script that generates charts of the experimental data are also included in this repository.
 
