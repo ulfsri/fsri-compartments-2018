@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Willi"
+  given-names: "Joseph"
+  orcid: "https://orcid.org/0000-0001-9426-7598"
+- family-names: "Madrzykowski"
+  given-names: "Daniel"
+  orcid: "https://orcid.org/0000-0003-1829-0491"
+- family-names: "McKinnon"
+  given-names: "Mark"
+  orcid: "https://orcid.org/0000-0002-3344-4957"
+- family-names: "Dow"
+  given-names: "Nicholas"
+  orcid: "https://orcid.org/0000-0001-6621-8086"
+title: "2018 Compartment Fire Experimental Data"
+version: 1.0
+doi: https://zenodo.org/record/5703475#.YZKBYr3MK50
+date-released: 2021-11-15
+url: "https://github.com/ulfsri/fsri-compartments-2018/tree/v1.0"
