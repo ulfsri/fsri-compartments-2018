@@ -66,3 +66,4 @@ Right Side Wall Total Heat Flux 0.65 m Below Ceiling,Total HF 0.65 m Below Ceili
 Right Side Wall Total Heat Flux 1.3 m Below Ceiling,Total HF 1.3 m Below Ceiling,Total Heat Flux,Wall_Heat_Flux
 Right Side Wall Radiant Heat Flux 0.65 m Below Ceiling,Radiant HF 0.65 m Below Ceiling,Radiant Heat Flux,Wall_Heat_Flux
 Right Side Wall Radiant Heat Flux 1.3 m Below Ceiling,Radiant HF 1.3 m Below Ceiling,Radiant Heat Flux,Wall_Heat_Flux
+Heat Release Rate,Heat Release Rate,Heat Release Rate,Heat_Release_Rate
