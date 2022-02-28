@@ -80,7 +80,7 @@ def format_and_save_plot(y_lims, x_lims, secondary_axis_label, file_loc):
             ax2.set_ylim([y_lims[0] * 1.8 + 32., y_lims[1] * 1.8 + 32.])
         else:
             ax2.set_ylim([secondary_axis_scale * y_lims[0], secondary_axis_scale * y_lims[1]])
-        ax2.yaxis.grid(b=None)
+        ax2.yaxis.grid(visible=None)
 
     # Add vertical lines and labels for timing information (if available)
     ax3 = ax1.twiny()
@@ -88,7 +88,7 @@ def format_and_save_plot(y_lims, x_lims, secondary_axis_label, file_loc):
     ax3.set_xticks([_x for _x in Events.index.values if _x >= x_lims[0] and _x <= x_lims[1]])
     ax3.tick_params(axis='x', width=1, labelrotation=font_rotation, labelsize=event_font)
     ax3.set_xticklabels([Events['Event'][_x] for _x in Events.index.values if _x >= x_lims[0] and _x <= x_lims[1]], fontsize=event_font, ha='left')
-    ax3.xaxis.grid(b=None)
+    ax3.xaxis.grid(visible=None)
 
     # Add legend, clean up whitespace padding, save chart as pdf, & close fig
     handles1, labels1 = ax1.get_legend_handles_labels()
@@ -104,7 +104,7 @@ def format_and_save_plot(y_lims, x_lims, secondary_axis_label, file_loc):
 # Loop through test data files & create plots
 for f in os.listdir(data_dir):
     # Skip if f is not a exp data file
-    if any([not f.endswith('.csv'), f.startswith('.'), f.startswith('exp_'), f.endswith('_Events.csv')]):
+    if any([not f.endswith('.csv'), f.startswith('.'), f.endswith('_Events.csv')]):
         continue
 
     # Get test name from file & load data & event files for given experiment
@@ -164,6 +164,10 @@ for f in os.listdir(data_dir):
                 # Apply moving average & set y-axis label
                 data_df[channel] = data_df[channel].rolling(window=10, center=True).mean()
                 ax1.set_ylabel('Heat Flux (kW/m$^2$)', fontsize=label_size)
+
+            elif data_type == 'Heat Release Rate':
+                # Set y-axis label
+                ax1.set_ylabel('Heat Release Rate (kW)', fontsize=label_size)
 
             # Determine x max bound for current data & update max of chart if necessary
             x_end = data_df[channel].index[-1]
