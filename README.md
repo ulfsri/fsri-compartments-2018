@@ -1,5 +1,5 @@
 # fsri-compartments-2018
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5703475.svg)](https://zenodo.org/record/5703475#.YZK1J73MK50)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5703474.svg)](https://zenodo.org/record/5703474#.YZK1J73MK50)
 
 
 
