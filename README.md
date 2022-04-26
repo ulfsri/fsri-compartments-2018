@@ -32,4 +32,4 @@ The charts directory is produced upon execution of __plot.py__. The charts produ
 
 ## Additional Information
 
-For more information about this project and other FSRI fire investigation projects, visit the [FSRI Fire Investigation](https://fireinvestigation.fsri.org/) webpage. Additionally, [Contact Us](https://fsri.org/contact-fire-safety-research-institute) to request any additional information about this project.
+For more information about this project and other FSRI fire investigation projects, visit the [FSRI Fire Investigation](https://fireinvestigation.fsri.org/) webpage. [Contact Us](https://fsri.org/contact-fire-safety-research-institute) to request any additional information about this project.
