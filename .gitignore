@@ -40,3 +40,4 @@
 02_Info/Compartment_Channel_List.csv
 02_Info/compartment_exp_info.csv
 03_Scripts/reduce_comp_data_files.py
+03_Scripts/furniture_mass.py
